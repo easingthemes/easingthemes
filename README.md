@@ -19,6 +19,8 @@ This isn't research or prototyping:
 
 ## What I build
 
+Years of open source and internal enterprise tooling — from UI components and developer utilities to deployment automation and platform SDKs. Recently shifted focus to agentic workflows:
+
 ### [AEM MCP Server](https://github.com/easingthemes/aem-mcp-server)
 The protocol layer. MCP server that gives AI agents direct access to AEM — JCR content, components, dialogs, page operations. The interface between LLMs and enterprise CMS.
 
@@ -30,6 +32,8 @@ GitHub Action for SSH deployments. 1k+ stars. Used across thousands of CI/CD pip
 
 ### [@adobe/aem-headless-client-js](https://github.com/adobe/aem-headless-client-js)
 Contributor to Adobe's official AEM Headless SDK.
+
+...and many many more.
 
 ## Technical focus
 
