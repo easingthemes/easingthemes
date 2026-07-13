@@ -27,7 +27,10 @@ Years of open source and internal enterprise tooling — from UI components and 
 The protocol layer. 57 MCP tools that give AI agents direct access to AEM — JCR content, components, dialogs, page operations. The interface between LLMs and enterprise CMS.
 
 ### [dx-aem-flow](https://github.com/easingthemes/dx-aem-flow)
-The orchestration layer. 78 skills, 13 agents, 3 plugins running identically across Claude Code, GitHub Copilot CLI, and VS Code Chat. Full development lifecycle from ticket to PR — config-driven, never hardcoded. Includes autonomous agents for DoR/DoD validation, code review, bug fixing, and QA.
+The orchestration layer. 78 skills, 13 agents, 4 plugins running identically across Claude Code, GitHub Copilot CLI, and VS Code Chat. Full development lifecycle from ticket to PR — config-driven, never hardcoded. Includes autonomous agents for DoR/DoD validation, code review, bug fixing, and QA.
+
+### [ki-bundestag](https://github.com/easingthemes/ki-bundestag)
+AI parliament simulation. 6 autonomous agents model German political parties using Claude + Grok. Multi-provider orchestration, circuit breakers, and coalition negotiation running a full 4-year parliamentary term for ~$44. This is the project that got Dragan found — a recruiter discovered it via GitHub search and reached out directly (June 2026).
 
 ### [ssh-deploy](https://github.com/easingthemes/ssh-deploy)
 GitHub Action for SSH deployments. 1,300+ stars, 162 forks, 57 releases. Used across thousands of CI/CD pipelines.
@@ -35,7 +38,7 @@ GitHub Action for SSH deployments. 1,300+ stars, 162 forks, 57 releases. Used ac
 ### [Mocker](https://github.com/easingthemes/mocker)
 Zero-config Node.js mock API server with web GUI. File-based endpoint management, dynamic path parameters, response variations. Built to unblock frontend teams waiting on backend APIs.
 
-### [fe-build](https://github.com/nicklasnetcentric/fe-build)
+### [fe-build](https://github.com/Netcentric/fe-build)
 All-in-one frontend toolchain for AEM projects. Standardized build processes adopted across Netcentric, setting company-wide frontend standards.
 
 ### [@adobe/aem-headless-client-js](https://github.com/adobe/aem-headless-client-js)
