@@ -1,4 +1,4 @@
-# I build agentic workflows for enterprise platforms.
+# I make enterprise codebases agent-friendly — and rewire how teams ship software around coding agents.
 
 AI agents that operate Adobe Experience Manager — not as demos, but as production systems running across 100+ markets and serving millions of users.
 
@@ -6,7 +6,13 @@ AI agents that operate Adobe Experience Manager — not as demos, but as product
 
 ## What I actually do
 
-I make enterprise platforms operable by AI agents. That means building the protocol layer (MCP servers), the orchestration layer (multi-agent workflows), and the autonomous execution layer (24/7 pipeline agents) — all designed for the constraints enterprises actually have: governance, multi-environment deployments, team-scale coordination.
+I embed with engineering teams and make their codebases agent-friendly — building the rules, skills, and MCP servers that let AI coding agents actually work in large, complex enterprise codebases. Then I redesign the SDLC around them: finding where delivery breaks when you add agents (QA bottlenecks, poorly scoped requirements, review debt) and rewiring it — and bringing the whole team up, not just the engineers already excited.
+
+Under that sits the tooling I've built for the constraints enterprises actually have — governance, multi-environment deployments, team-scale coordination:
+
+- the **protocol layer** (MCP servers),
+- the **orchestration layer** (multi-agent workflows),
+- the **autonomous execution layer** (24/7 pipeline agents).
 
 My systems handle the full development lifecycle autonomously: requirements analysis → implementation planning → code generation → multi-phase verification → PR creation. One command. No re-explaining the project each session.
 
@@ -14,8 +20,9 @@ My systems handle the full development lifecycle autonomously: requirements anal
 
 This isn't research or prototyping:
 
+- **Daily in production on a Fortune 500 account** — a 13-agent requirements-to-PR platform (KAI) running every day, escalated to COO
 - **100+ market AEM platform** — agentic workflows operating across a multi-market content platform
-- **Millions of users** — systems deployed in high-traffic enterprise e-commerce environments
+- **Millions of users** — systems deployed in high-traffic enterprise environments
 - **Autonomous pipeline agents** — AI agents running 24/7 as Azure DevOps pipelines, triggered by webhooks, producing verified PRs without human intervention
 - **Multi-agent orchestration** — Opus for deep review, Sonnet for execution, Haiku for lookups — tiered by task complexity
 
@@ -24,13 +31,13 @@ This isn't research or prototyping:
 Years of open source and internal enterprise tooling — from UI components and developer utilities to deployment automation and platform SDKs. Recently shifted focus to agentic workflows:
 
 ### [AEM MCP Server](https://github.com/easingthemes/aem-mcp-server)
-The protocol layer. 57 MCP tools that give AI agents direct access to AEM — JCR content, components, dialogs, page operations. The interface between LLMs and enterprise CMS.
+The protocol layer. 57 MCP tools that give AI agents direct access to AEM — JCR content, components, dialogs, page operations. The interface between LLMs and enterprise CMS. One of the first full MCP servers for AEM.
 
 ### [dx-aem-flow](https://github.com/easingthemes/dx-aem-flow)
-The orchestration layer. 78 skills, 13 agents, 4 plugins running identically across Claude Code, GitHub Copilot CLI, and VS Code Chat. Full development lifecycle from ticket to PR — config-driven, never hardcoded. Includes autonomous agents for DoR/DoD validation, code review, bug fixing, and QA.
+The orchestration layer. 78 skills, 13 agents, 4 plugins running identically across Claude Code, GitHub Copilot CLI, and VS Code Chat. Full development lifecycle from ticket to PR — config-driven, never hardcoded. Includes autonomous agents for DoR/DoD validation, code review, bug fixing, and QA. Shipped ~6 months before Salesforce productized the "Agentic Engineering" category.
 
 ### [ki-bundestag](https://github.com/easingthemes/ki-bundestag)
-AI parliament simulation. 6 autonomous agents model German political parties using Claude + Grok. Multi-provider orchestration, circuit breakers, and coalition negotiation running a full 4-year parliamentary term for ~$44. This is the project that got Dragan found — a recruiter discovered it via GitHub search and reached out directly (June 2026).
+AI parliament simulation. 6 autonomous agents model German political parties using Claude + Grok. Multi-provider orchestration, circuit breakers, and coalition negotiation running a full 4-year parliamentary term for ~$44. This is the project that got me found — a recruiter discovered it via GitHub search and reached out directly (June 2026).
 
 ### [ssh-deploy](https://github.com/easingthemes/ssh-deploy)
 GitHub Action for SSH deployments. 1,300+ stars, 162 forks, 57 releases. Used across thousands of CI/CD pipelines.
@@ -46,10 +53,11 @@ Lead contributor to Adobe's official AEM Headless SDK for JavaScript/Node.js.
 
 ## Technical focus
 
+- **Making codebases agent-friendly** — rules files, custom skills, MCP servers; context engineering for large, complex repos
+- **SDLC redesign & enablement** — rewiring delivery around coding agents, evals/LLMOps, bringing whole teams up
 - **Agentic workflows** — LLM + tools + structured execution, not chatbots
 - **MCP (Model Context Protocol)** — building the interface layer between AI agents and enterprise systems
 - **Enterprise AI constraints** — governance, verification gates, multi-environment deployments, team coordination
-- **CI/CD and developer infrastructure** — deployment automation, pipeline design, developer tooling
 - **AEM platform engineering** — deep specialization in making Adobe Experience Manager AI-operable
 
 ## Speaking & writing
