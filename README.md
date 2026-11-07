@@ -19,7 +19,7 @@ Under that sits tooling built for the constraints enterprises actually have — 
 
 ## In production
 
-- **Issue-to-PR agents** — requirements, readiness checks, bug fixing, development, QA, docs; each triggered by a comment on the ticket and running in CI. 1/3 of all tickets now ship through this spec-to-PR workflow. Escalated to COO level.
+- **Issue-to-PR agents** — requirements, readiness checks, bug fixing, development, QA, docs; each triggered by a comment on the ticket and running in CI. 1/3 of all tickets now ship through this spec-to-PR workflow. Presented to the COO, who made it a program priority the same day.
 - **Autonomous AI PR review** — hundreds of pull requests reviewed in daily delivery, at about $5 per review — a fraction of senior-reviewer time.
 - **5 enterprise repositories made agent-ready** — skills, agents, rules files, guardrails (policy-as-code, token budgets, secret-blocking hooks).
 - **Evals that changed decisions** — an LLM judge passed a report its own rubric marked as a fail; the deterministic grader caught it, so deterministic graders now run first.
