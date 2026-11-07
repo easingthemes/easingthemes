@@ -1,6 +1,10 @@
-# I build AI developer platforms: coding agents that take real tickets to reviewed pull requests in large enterprise codebases.
+# Anyone can get an agent to write code. I build the system that makes it safe to merge.
 
-Agentic engineering and AI enablement for engineering teams, running daily in production on a Fortune-500-scale program, not as demos.
+AI developer platforms: coding agents that take real tickets to reviewed pull requests in large enterprise codebases, running daily in production on a Fortune-500-scale program, not as demos.
+
+**1,300+ GitHub stars · 3 Adobe-distributed SDKs · 57 MCP tools · 75+ AI skills**
+
+Shipping developer tooling since long before agents could write it for me: ssh-deploy since 2019, Adobe's AEM SDKs, 16+ years of enterprise platforms.
 
 ## What I actually do
 
@@ -31,7 +35,7 @@ The orchestration layer. 75+ skills, 13 agents, 4 plugins running identically ac
 A self-hosted n8n agent that triages every new GitHub issue on a public repo: reads the code and past issues, posts a code-aware triage comment, labels and possible duplicates. About one cent per issue; 8 security layers against prompt injection on public input; GitOps deploy.
 
 ### [AEM MCP Server](https://github.com/easingthemes/aem-mcp-server)
-The protocol layer. 57 MCP tools that give AI agents direct access to AEM — JCR content, components, dialogs, page operations. One of the first comprehensive MCP servers for AEM. Listed on PulseMCP.
+The protocol layer. 57 MCP tools that give AI agents direct access to AEM — JCR content, components, dialogs, page operations. One of the first full MCP servers for AEM, live since July 2025. Listed on PulseMCP.
 
 ### [ki-bundestag](https://github.com/easingthemes/ki-bundestag)
 AI parliament simulation. 6 autonomous agents model German political parties using Claude + Grok and the Vercel AI SDK. Multi-provider orchestration, circuit breakers and coalition negotiation, running a full 4-year parliamentary term for ~$44.
