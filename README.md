@@ -70,4 +70,4 @@ Enterprise delivery where agents handle execution end-to-end, and humans set dir
 
 **Making a large codebase agent-ready? Let's talk → [LinkedIn](https://www.linkedin.com/in/draganfilipovic/)**
 
-**Berlin** · [LinkedIn](https://www.linkedin.com/in/draganfilipovic/) · [@draganfill](https://twitter.com/draganfill) · [frontenddot.com](https://frontenddot.com)
+**Berlin** · [@draganfill](https://twitter.com/draganfill) · [frontenddot.com](https://frontenddot.com)
