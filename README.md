@@ -31,9 +31,6 @@ Under that sits tooling built for the constraints enterprises actually have — 
 ### [dx-aem-flow](https://github.com/easingthemes/dx-aem-flow)
 The orchestration layer. 78 skills, 13 agents, 4 plugins running identically across Claude Code, GitHub Copilot CLI and VS Code Chat. Ticket to PR, autonomous CI agents, AI PR review, eval layer. Config-driven, never hardcoded. Shipped ~6 months before Salesforce productized the "Agentic Engineering" category.
 
-### [kai-hausmeister](https://github.com/easingthemes/kai-hausmeister)
-A self-hosted n8n agent that triages every new GitHub issue on a public repo: reads the code and past issues, posts a code-aware triage comment, labels and possible duplicates. About one cent per issue; 8 security layers against prompt injection on public input; GitOps deploy.
-
 ### [AEM MCP Server](https://github.com/easingthemes/aem-mcp-server)
 The protocol layer. 57 MCP tools that give AI agents direct access to AEM — JCR content, components, dialogs, page operations. One of the first full MCP servers for AEM, live since July 2025. Listed on PulseMCP.
 
@@ -42,6 +39,9 @@ AI parliament simulation. 6 autonomous agents model German political parties usi
 
 ### [ssh-deploy](https://github.com/easingthemes/ssh-deploy)
 GitHub Action for SSH deployments. 1.3k+ stars, used in CI/CD pipelines worldwide.
+
+### [kai-hausmeister](https://github.com/easingthemes/kai-hausmeister)
+A self-hosted n8n agent that triages new GitHub issues: code-aware triage comment, labels, possible duplicates. About one cent per issue; 8 security layers against prompt injection on public input; GitOps deploy.
 
 ### [@adobe/aem-headless-client-js](https://github.com/adobe/aem-headless-client-js) · [fe-build](https://github.com/Netcentric/fe-build) · [Mocker](https://github.com/easingthemes/mocker)
 Lead contributor to Adobe's official AEM Headless SDK (one of 3 Adobe-distributed SDKs I delivered) · the frontend toolchain adopted across Netcentric · a zero-config mock API server.
